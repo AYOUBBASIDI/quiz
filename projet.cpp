@@ -3,9 +3,9 @@
 
 main()
 {
-int score=0,answer;
+int score=0;
+int answer;
 
-char Yes,entert,Chinese,Russia,water ;
 printf("Welcom to my Quiz\nThe rules are :\nIf the answer is correct you have +2 point\nIf the answer is fault you have -1\n\nAlert:Just write the answer number.\n\n\n");
 
 printf("\nQ1) H2O is the chemical formula for what?");
@@ -74,7 +74,7 @@ scanf("%d", &answer);
 
 if(answer==2)
 {
-printf("That''s Correct!\n\n\n");
+printf("That's Correct!\n\n\n");
 score=score+2;
 }
 else
@@ -86,7 +86,7 @@ score=score-1;
 printf("\nThank You for taking the Quiz.\n Your Total Score is %d out of 10", score);
 
 if(score<0)
-printf("\You're an idiot.");
+printf("\nYou're an idiot.");
 else if (score<5)
 printf("\nGood.");
 else 

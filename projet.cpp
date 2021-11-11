@@ -44,7 +44,7 @@ scanf("%d", &answer);
 
 if(answer==3)
 {
-printf("That’s Correct!\n\n\n");
+printf("That's Correct!\n\n\n");
 score=score+2;
 }
 else
